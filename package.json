@@ -1,0 +1,27 @@
+{
+  "name": "xcalculator",
+  "version": "2.0.1",
+  "description": "",
+  "main": "./dist/app.js",
+  "type": "module",
+  "bin": {
+    "xcalculator": "./dist/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.6.0"
+  },
+  "dependencies": {
+    "@types/gradient-string": "^1.1.2",
+    "colors": "^1.4.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.11",
+    "node-banner": "^1.4.0"
+  }
+}
