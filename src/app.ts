@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-import  inquirer  from "inquirer";
+import inquirer  from "inquirer";
 import showBanner from "node-banner";
 import gradient from "gradient-string";
 import CheckboxPrompt from "inquirer/lib/prompts/checkbox.js";
